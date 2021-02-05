@@ -6,6 +6,7 @@
     "minecraft"
   ],
   "repository": "https://github.com/ferhacks/heroku-buildpack-minecraft",
+  "addons": ["proximo:development"],
   "env": {
     "MINECRAFT_EULA": {
       "description": "Do you accept the Minecraft EULA?",
